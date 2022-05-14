@@ -1,0 +1,32 @@
+This is a subset of the Pang and Lee 2002 Sentiment Classification / Movie Review data,
+created by Ted Pedersen (tpederse@d.umn.edu).
+
+This is the direct link to the original tar file :
+
+http://www.cs.cornell.edu/people/pabo/movie-review-data/mix20_rand700_tokens_0211.tar.gz
+
+The page with other versions and more info is found here :
+
+http://www.cs.cornell.edu/people/pabo/movie-review-data/
+
+I reformatted the data so that there is a test file with 200 reviews, one review per line.
+This file is called sentiment-test.txt. Ther are 100 positive and 100 negative reviews. 
+The gold standard classes for these reviews are found in sentiment-gold.txt
+
+Special characters were remove from the original data via the following :
+cat file.txt |tr -cd "[:print:]\n" 
+
+There is a training file with 592 negative reviews and 594 positive reviews, for a total
+of 1,186 reviews. These are found in sentiment-traing.txt.
+
+The first first in both the training and test file is the identifier, which is the file
+name of the review as found in the original data. The second field in the training
+data is the correct class (1 = positive, 0 = negative). The second field in the
+test data is __. 
+
+wc sentiment-*
+    200     400    4378 sentiment-gold.txt
+    200  152502  792767 sentiment-test.txt
+   1186  899116 4671929 sentiment-train.txt
+   1586 1052018 5469074 total
+
