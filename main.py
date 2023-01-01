@@ -10,7 +10,6 @@ import someFunctions as SF
 
 ############################################################ MAIN PROGRAM ############################################################
 
-# trainingSet = TK.tokenizeTrainingSet("./data/train_small.txt")
 trainingSet = TK.tokenizeTrainingSet("./data/sentiment-train.txt")
 testingSet = TK.tokenizeTestingSet("./data/sentiment-test.txt")
 
