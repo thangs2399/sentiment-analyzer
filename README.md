@@ -2,7 +2,7 @@
 
 ## Summary
 
-> The program is implemented using the 'Naive Bayes Algorithm' and it is trained and tested using a subset of the Pang and Lee 2002 Sentiment Classification / Movie Review data, created by Ted Pedersen (tpederse@d.umn.edu). This program yields 80.8% accuracy based on those testing and training data.
+> The program is implemented using the 'Naive Bayes Algorithm' and is trained and tested using a subset of the Pang and Lee 2002 Sentiment Classification / Movie Review data, created by Ted Pedersen (tpederse@d.umn.edu). This program yields 80.8% accuracy based on those testing and training data.
 
 ## Sentiment Analysis Program based on Naive Bayes Classifier Algorithm
 
